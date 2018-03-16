@@ -1,10 +1,11 @@
-
+body {
+	font-family: Helvetica;
+}
 
 .top {
 	margin: auto;
 	padding-left: 5px;
 	padding-right: 5px;
-	border: 5px solid green;
 	background-image: url("../images/build.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -13,8 +14,47 @@
 }
 
 .heading {
-	font-family: Helvetica;
 	font-size: 70px;
 	font-weight: bold;
 	color: white;
 } 
+
+#links {
+	font-size: 18px;
+}
+
+a {
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 23px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.icons {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.we_state {
+	font-size: 14px;
+	text-align: center;
+}
+
+#design {
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+	background-image: url("../images/build.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
