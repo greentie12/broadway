@@ -45,7 +45,7 @@ h3 {
 	margin-right: auto;
 }
 
-.we_state {
+.we_state, .info {
 	font-size: 14px;
 	text-align: center;
 }
@@ -57,4 +57,12 @@ h3 {
 	background-image: url("../images/build.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+}
+
+#footer {
+	background-color: dimgray;
+	font-size: 11px;
+	color: white;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
